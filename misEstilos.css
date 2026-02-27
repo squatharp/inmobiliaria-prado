@@ -1,0 +1,87 @@
+.image-carrusel{
+    height: 400px;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.carousel-inner{
+    height: 400px; /* Ajusta esta altura a tu gusto (ej. 300px, 50vh, etc.) */
+    overflow: hidden; /* Oculta cualquier cosa que se salga (por si acaso) */
+    background-color: #f8f9fa;
+}
+
+#background{
+    background-image: url('./assets/merida.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 100px 0;
+    max-height: 500px;
+}
+
+#hogar{
+    color: #f8f9fa;
+    text-align: center;         
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#gancho{
+    margin-top: 60px;
+    color: #f8f9fa;
+    text-align: center;         
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#inmobiliaria{
+    margin-top: 60px;
+    color: #f8f9fa;
+    text-align: center;         
+    font-weight: bold;
+    font-size: 25px;
+}
+#quienes-somos{
+    background-color: black;
+}
+
+#quienes-somos-text{
+    color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+}
+
+#somos-text{
+    color: rgba(233, 232, 232, 0.792);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.container-fluid{
+    background-color: black;
+    
+}
+
+#nuestra-asesora{
+    color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+#foto-sele{
+    margin-top:10px;
+}
+
+
+.carousel-item img {
+    height: 400px;       
+    object-fit: cover;   
+    object-position: center; 
+    width: 100%;
+}
